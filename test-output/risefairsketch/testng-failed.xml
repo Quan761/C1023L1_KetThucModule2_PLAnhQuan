@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Risefairsketch]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.risefairsketch.ThiKetThucModule2">
+        <methods>
+          <include name="TC01_Create03Payment"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.risefairsketch.ThiKetThucModule2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Risefairsketch] -->
